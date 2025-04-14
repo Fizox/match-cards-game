@@ -96,4 +96,6 @@ buttons.forEach(btn => {
   });
 });
 
-createCards(4);
+document.addEventListener("DOMContentLoaded", function () {
+  createCards(4);
+});
